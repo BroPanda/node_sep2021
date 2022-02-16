@@ -1,0 +1,3 @@
+name: Oleh, age: 21, city: Lviv
+name: Lenny, age: 23, city: Lviv
+name: Goga, age: 20, city: Lviv
