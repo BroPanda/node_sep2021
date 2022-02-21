@@ -43,11 +43,19 @@ app.get(`/users`, (req, res) => {
     res.render(`users`, {users});
 });
 
+// app.get(`/users/:id`, (req, res) => {
+//     const {id} = req.params
+//     res.json(users[id])
+//
+// });
+
 app.get(`/users/:id`, (req, res) => {
-    const {id} = req.params
+    const {id} = req.query
     res.json(users[id])
+    console.log(req.query)
 
 });
+
 
 
 
